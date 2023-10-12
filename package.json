@@ -4,6 +4,10 @@
   "description": "On the fly, thumbnail creation middleware for express.",
   "author": "Zach Ivester <zivester@gmail.com>",
   "main": "index.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "node test/simple-test.js",
     "start": "node test/express-test.js"
